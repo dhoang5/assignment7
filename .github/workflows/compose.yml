@@ -19,7 +19,7 @@ services:
     command: yes database.
 
   users:
-    image: <your-image-name>
+    image: assignment7
     command: while true; do echo users; done
     user: 5000:5000
     volumes:
